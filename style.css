@@ -1,0 +1,113 @@
+*
+{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(./imagens/fundo.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    font-family: 'Special Elite', cursive;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+.tituloprincipal{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    justify-content: center;
+   
+}
+ 
+.comandos p{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.imagempersonagens{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    
+}
+
+.personagens{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.imgpersonagem{
+    width: 200px;
+    height: 200px;
+}
+
+.imgpersonagem img{
+    padding: 30px;
+    border-radius: 50%;
+}
+
+footer{
+    
+    justify-content: end;
+    text-align: center;
+    color: white;
+    padding: 170px 0;
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+    
+/* css fases*/
+
+.textodirecionador{
+    color:yellow;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.alternativas{
+    color:white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+
+.alternativas img{
+    padding-top: 20px;
+  
+}
+
+.alternativas p{
+    padding: 20px;
+}
+
+.resposta{
+    position: relative;
+}
+.botao-resposta{
+    width: 100px;
+    height: 40px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: mediumpurple;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
