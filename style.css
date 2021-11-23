@@ -58,8 +58,7 @@ main{
     padding: 30px;
     border-radius: 50%;
 }
-.rodape-abertura
-{
+.rodape-abertura{
     position: absolute;
     bottom: 0px;
     width: 100%;
