@@ -58,7 +58,16 @@ main{
     padding: 30px;
     border-radius: 50%;
 }
-
+.rodape-abertura
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
 .rodapeinicial{
     display: flex;
     flex-direction: column;
@@ -147,3 +156,11 @@ main{
     color:rgb(248, 223, 1);
     font-weight: bold;
 }
+
+.rodape a{
+    text-align: center;
+    color:white;
+    font-size: 25px;
+
+}
+
